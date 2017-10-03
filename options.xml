@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized version="19.0" xml:space="preserve">
+	<map>
+		<entry>
+			<String>DocBook.5.document.type.auto.generate.id.elements.active</String>
+			<String>true</String>
+		</entry>
+		<entry>
+			<String>DocBook.5.document.type.filter.ids.on.copy</String>
+			<String>true</String>
+		</entry>
+		<entry>
+			<String>DocBook.5.document.type.generate.id.for.elements</String>
+			<String>article,chapter,section,preface,appendix,book,table,figure,informaltable,informalfigure,</String>
+		</entry>
+		<entry>
+			<String>DocBook.5.document.type.generate.ids.pattern</String>
+			<String>${localName}.${id}</String>
+		</entry>
+	</map>
+</serialized>

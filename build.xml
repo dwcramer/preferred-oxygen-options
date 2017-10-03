@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="plugin">
+    
+    <property name="version" value="1.0"/>
+    <dirname file="${ant.file}" property="ant-dir"/>
+    
+    <target name="default">
+        <mkdir dir="build"/>
+        <echo message="${ant-dir}"/>
+  
+        <jar destfile="build/preferred-options-${version}.jar" basedir="${ant-dir}" includes="*.xml *.js" excludes="build.xml addon.xml"/>
+        
+        <copy file="addon.xml" todir="build"/>
+        
+    </target>
+    
+</project>
