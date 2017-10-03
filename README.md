@@ -5,7 +5,7 @@ This Oxygen plugin automatically loads a preferred set of Global Options each ti
 You can install the add-on by using Oxygen's add-ons support. In Oxygen, go to **Help->Install new add-ons...** 
 and use this add-on repository URL:
 
-https://raw.githubusercontent.com/dwcramer/preferred-oxygen-options/master/addon.xml
+https://raw.githubusercontent.com/dwcramer/preferred-oxygen-options/master/build/addon.xml
 
 ## Options Set
 
