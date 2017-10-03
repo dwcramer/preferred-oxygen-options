@@ -5,7 +5,7 @@
     
     <xmlproperty file="addon.xml"/>
     
-    <property name="version" value="1.0.1"/>
+    <property name="version" value="1.0.2"/>
     <property name="pluginId" value="net.thingbag.preferred.options"/>
     <property name="pluginName" value="${ant.project.name}"/>
     <property name="artifact" value="build/${ant.project.name}-${version}.jar"/>
