@@ -8,6 +8,8 @@
     <property name="version" value="1.0.1"/>
     <property name="pluginId" value="net.thingbag.preferred.options"/>
     <property name="pluginName" value="${ant.project.name}"/>
+    <property name="artifact" value="build/${ant.project.name}-${version}.jar"/>
+    <property file="../keymaterial/build.properties"/>
     
     <target name="default" depends="clean">
         
@@ -38,8 +40,11 @@
             <filterset refid="filters"/>
         </copy>
         
-        <jar destfile="build/${ant.project.name}-${version}.jar" basedir="build/${ant.project.name}"/>
-          
+        <jar destfile="${artifact}" basedir="build/${ant.project.name}"/>
+        
+        <signjar jar="${artifact}"
+            alias="${alias}" keystore="${keystore}" storepass="${storepass}" tsaurl="http://tsa.starfieldtech.com"/>
+        
     </target>
     
     <target name="clean">
