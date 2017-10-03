@@ -1,3 +1,4 @@
 .DS_Store
 *~
 build/preferred-oxygen-options*
+build.properties
