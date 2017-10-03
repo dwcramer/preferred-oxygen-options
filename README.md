@@ -7,7 +7,7 @@ and use this add-on repository URL:
 
 https://raw.githubusercontent.com/dwcramer/preferred-oxygen-options/master/build/addon.xml
 
-## Options Set
+## Options Automatically Set by this Plugin:
 
 * In the **DocBook5->ID Options** dialog:
   * **ID Pattern** is set to `${localName}.${id}`
