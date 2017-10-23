@@ -22,6 +22,7 @@ https://raw.githubusercontent.com/dwcramer/preferred-oxygen-options/master/build
     * figure
     * informaltable
     * informalfigure
+    * simplesect
   * **Auto generate IDs for elements** is checked
   * **Remove IDs when copying content in the same document** is checked
   
