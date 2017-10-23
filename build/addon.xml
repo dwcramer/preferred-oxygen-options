@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
     <xt:extension id="net.thingbag.preferred.options">
-        <xt:location href="https://github.com/dwcramer/preferred-oxygen-options/releases/download/1.0.2/preferred-oxygen-options-1.0.2.jar"/>
-        <xt:version>1.0.2</xt:version>
+        <xt:location href="https://github.com/dwcramer/preferred-oxygen-options/releases/download/1.0.4/preferred-oxygen-options-1.0.4.jar"/>
+        <xt:version>1.0.4</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
         <xt:author>David Cramer</xt:author>
